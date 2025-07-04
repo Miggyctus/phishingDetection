@@ -9,7 +9,7 @@ from nltk.corpus import stopwords
 import re
 
 # ---- INITIAL SETUP ----
-#nltk.download('stopwords')
+nltk.download('stopwords')
 stopwords_en = stopwords.words('english')
 stopwords_es = stopwords.words('spanish')
 
